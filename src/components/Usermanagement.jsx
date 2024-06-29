@@ -75,40 +75,53 @@ import Modal from 'react-bootstrap/Modal'
       <td></td>
       <td className="table-elipse" data-toggle="collapse" data-target="#demo"><i className="fa fa-ellipsis-h text-black-50"></i></td>
       </tr>
-
-      <tr id="demo" className="collapse cell-1 row-child">
+    
+      <tr id="demo" className="collapse cell-1 row-child" align="middle">
       <td className="text-center" colspan="1"><i className="fa fa-angle-up"></i></td>
-      <td colspan="1">Product&nbsp;</td>
-      <td colspan="3">iphone SX with ratina display</td>
-      <td colspan="1">QTY</td>
-      <td colspan="2">2</td>
+      <td colspan="1" text="Bold" fontWeight="400">Complain Number&nbsp;</td>
+      <td colspan="1">Description</td>
       </tr>
 
+      <tr id="demo" className="collapse cell-1 row-child" align="middle">
+      <td className="text-center" colspan="1"><i className="fa fa-angle-up"></i></td>
+      <td colspan="1" text="Bold" fontWeight="400">MXN_123&nbsp;</td>
+      <td colspan="1">ABCDEFGHIJKLMNOP</td>
+      <td><button>TimeLine</button></td>
+      </tr> 
+
+      <tr id="demo" className="collapse cell-1 row-child" align="middle">
+      <td className="text-center" colspan="1"><i className="fa fa-angle-up"></i></td>
+      <td colspan="1" text="Bold" fontWeight="400">MXN_234&nbsp;</td>
+      <td colspan="1">ABCDEFGHIJKLM</td>
+      </tr>  
+
+      
       </tbody>
-      <tbody class="table-body">
+      {/* <tbody class="table-body"> */}
 
-      <tr className="cell-1">
-      <td className="text-center">1</td>
-      <td>DB_123</td>
-      <td>Debayan</td>
-      <td>Rakshit</td>
-      <td>Investigation Officer</td>
-      <td>active</td>
-      <td></td>
-      <td></td>
-      <td className="table-elipse" data-toggle="collapse" data-target="#demo"><i className="fa fa-ellipsis-h text-black-50"></i></td>
-      </tr>
+      {/* <tr className="cell-1"> */}
+      {/* <td className="text-center">1</td> */}
+      {/* <td>DB_123</td> */}
+      {/* <td>Debayan</td> */}
+      {/* <td>Rakshit</td> */}
+      {/* <td>Investigation Officer</td> */}
+      {/* <td>active</td> */}
+      {/* <td></td> */}
+      {/* <td></td> */}
+      {/* <td className="table-elipse" data-toggle="collapse" data-target="#demo"><i className="fa fa-ellipsis-h text-black-50"></i></td> */}
+      {/* </tr> */}
 
-      <tr id="demo" className="collapse cell-1 row-child">
-      <td className="text-center" colspan="1"><i className="fa fa-angle-up"></i></td>
-      <td colspan="1">Product&nbsp;</td>
+      {/* <tr id="demo" className="collapse cell-1 row-child"> */}
+      {/* <td className="text-center" colspan="1"><i className="fa fa-angle-up"></i></td> */}
+      {/* <td colspan="1">Product&nbsp;</td>
       <td colspan="3">iphone SX with ratina display</td>
       <td colspan="1">QTY</td>
-      <td colspan="2">2</td>
-      </tr>
+      <td colspan="2">2</td> */}
+      {/* </tr> */}
 
-</tbody>
-     </table> 
+      {/* </tbody> */}
+      
+      </table> 
         <Button variant="primary" onClick={handleShow}>
         Add
         </Button>
